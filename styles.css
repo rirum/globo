@@ -1,0 +1,229 @@
+body {
+font-family: 'Encode Sans', sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    max-width: 1250px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+
+   
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 9px;
+
+}
+
+hr {
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 0;
+
+}
+
+
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    
+}
+    
+
+.color1 a:link {
+    color: #C3170C;
+}
+
+.color2 a:link {
+    color: #1E4B9B;
+}
+
+.color3 a:link {
+    color: #006766;
+}
+
+.color4 a:link {
+    color: #07AA47;
+}
+
+.color5 a:link {
+    color: #E3662B;
+}
+
+.color6 a:link {
+    color: #FB0735;
+}
+
+
+.color7 a:link {
+    color: #FF75BB;
+}
+
+.color8 a:link {
+    color: #EC7D00;
+}
+
+.color9 a:link {
+    color: #323333;
+}
+
+.color10 a:link {
+    color: #A81D83;
+}
+
+
+.container {
+   
+    display: flex;
+    width: 1250px; /** 85% **/
+    background-color: pink; /**apagar**/
+    margin: 0 auto;
+    margin-top: 39px;
+    overflow: auto;
+    
+
+   
+}
+.container-esquerda {
+    border-bottom: 1px solid #EBEDEF;
+}
+
+.manchete {
+    
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;
+    color: #C4160C;
+    margin-bottom: 29px;
+}
+
+.texto-abaixo-manchete p {
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: #303134;
+    line-height: 22px;
+    margin-bottom: 7px;     
+
+}
+
+.barrinha {
+    margin: 25px 0;
+    border-top: 1px solid #EBEDEF;
+}
+
+
+
+.caixa-noticias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias {
+    width: 193px;
+    margin-bottom: 50px;
+}
+.noticias img {
+    max-width: 193px;
+    max-height: 110px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 11px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size:  14px;
+    color: #C4170C;
+    margin-bottom: 6px;
+}
+
+.manchetes-menores {
+    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+    margin-bottom: 4px;
+   
+}
+
+.manchetes-menores-2 {
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+}
+
+
+.barrinha-vertical {
+    width: 1px;
+    margin: 0 35px;
+    background-color: #EBEDEF;
+}
+
+
+.container-direita {
+    display: flex;
+    
+    
+}
+
+.caixa-esportes {
+    flex-direction: column;
+  
+}
+
+.caixa-lazer {
+    flex-direction: column;
+}
+
+h3 {
+    color: #16AE54;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    
+
+}
+
+h5 {
+    color: #EC8006;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.esportes {
+    margin-bottom: 50px;
+}
+.esportes img {
+    max-width: 240px;
+    max-height: 128px;
+    border-radius: 12px;
+    margin-bottom: 11px;
+}
+
+.paragrafo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 9px;
+    
+   }
+
