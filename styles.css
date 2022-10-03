@@ -8,10 +8,14 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: #2F3134;
+}
+
 .header-container {
-    max-width: 1250px;
+    width: 100%;
     height: 80px;
-    text-align: center;
+    
     margin: 0 auto;
 
    
@@ -20,7 +24,8 @@ a {
 
 .logo {
     text-align: center;
-    margin-top: 9px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 
 }
 
@@ -31,18 +36,27 @@ hr {
 }
 
 
-
-
 .menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    justify-content: center;
     width: 100%;
-    height: 19px;
-    line-height: 24px;
-    font-weight: 700;
+    display: flex;
+    margin-bottom: 16px;
     
 }
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+
     
 
 .color1 a:link {
@@ -90,9 +104,8 @@ hr {
 .container {
    
     display: flex;
-    width: 1250px; /** 85% **/
-    background-color: pink; /**apagar**/
-    margin: 0 auto;
+    width: 1250px;
+   margin: 0 auto;
     margin-top: 39px;
     overflow: auto;
     
