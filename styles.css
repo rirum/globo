@@ -1,242 +1,69 @@
 body {
-font-family: 'Encode Sans', sans-serif;
-
-}
-
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: #2F3134;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-container {
+    position: fixed;
     width: 100%;
-    height: 80px;
+    height: 54px;
+    display: flex;
     
-    margin: 0 auto;
-
-   
+     
+    
 }
-
+.header-conteudo {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
 
 .logo {
-    text-align: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
-}
-
-hr {
-    border-top: 1px solid #f5f6f7;
-    border-bottom: 0;
-
-}
-
-
-.menu {
-    border-top: 1px solid #f5f6f7;
-    border-bottom: 1px solid #f5f6f7;
-    justify-content: center;
-    width: 100%;
-    display: flex;
-    margin-bottom: 16px;
-    
-}
-
-.menu-items {
     display: flex;
     justify-content: space-between;
-    width: 65%;
-    align-items: center;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 10px 0;
-}
-
-
-    
-
-.color1 a:link {
-    color: #C3170C;
-}
-
-.color2 a:link {
-    color: #1E4B9B;
-}
-
-.color3 a:link {
-    color: #006766;
-}
-
-.color4 a:link {
-    color: #07AA47;
-}
-
-.color5 a:link {
-    color: #E3662B;
-}
-
-.color6 a:link {
-    color: #FB0735;
-}
-
-
-.color7 a:link {
-    color: #FF75BB;
-}
-
-.color8 a:link {
-    color: #EC7D00;
-}
-
-.color9 a:link {
-    color: #323333;
-}
-
-.color10 a:link {
-    color: #A81D83;
-}
-
-
-.container {
-   
-    display: flex;
-    width: 1250px;
-   margin: 0 auto;
-    margin-top: 39px;
-    overflow: auto;
-    
-
-   
-}
-.container-esquerda {
-    border-bottom: 1px solid #EBEDEF;
-}
-
-.manchete {
-    
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 67px;
-    color: #C4160C;
-    margin-bottom: 29px;
-}
-
-.texto-abaixo-manchete p {
-    
-    font-size: 18px;
-    font-weight: 500;
-    color: #303134;
-    line-height: 22px;
-    margin-bottom: 7px;     
+    width: 150px;
+    height: 29px;
 
 }
 
-.barrinha {
-    margin: 25px 0;
-    border-top: 1px solid #EBEDEF;
+ion-icon {
+    font-size: 24px;
 }
 
-
-
-.caixa-noticias {
-    display: flex;
-    justify-content: space-between;
-}
-
-.noticias {
-    width: 193px;
-    margin-bottom: 50px;
-}
-.noticias img {
-    max-width: 193px;
-    max-height: 110px;
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 11px;
-}
-
-h1 {
-    font-weight: 500;
-    font-size:  14px;
-    color: #C4170C;
-    margin-bottom: 6px;
-}
-
-.manchetes-menores {
-    
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    color: #2F3134;
-    margin-bottom: 4px;
-   
-}
-
-.manchetes-menores-2 {
-   
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    
-}
-
-
-.barrinha-vertical {
+.linha-vertical {
     width: 1px;
-    margin: 0 35px;
-    background-color: #EBEDEF;
+    height: 22px;
+    background-color: red;
+    /**#DBDBDB;**/
 }
 
+.pesquisar {
+    width: 215px;
+    height: 26px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+   
+}
 
-.container-direita {
-    display: flex;
+.pesquisar p {
     
-    
-}
-
-.caixa-esportes {
-    flex-direction: column;
-  
-}
-
-.caixa-lazer {
-    flex-direction: column;
-}
-
-h3 {
-    color: #16AE54;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    
-
-}
-
-h5 {
-    color: #EC8006;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-}
-.esportes {
-    margin-bottom: 50px;
-}
-.esportes img {
-    max-width: 240px;
-    max-height: 128px;
-    border-radius: 12px;
-    margin-bottom: 11px;
-}
-
-.paragrafo {
-    font-size: 14px;
     font-weight: 400;
-    line-height: 19px;
-    padding-bottom: 9px;
+    font-size: 12px;
+    color: #979797;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
-   }
+}
 
+.icons-header {
+    width: 140px;
+    height: 24px;
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-around;
+}
